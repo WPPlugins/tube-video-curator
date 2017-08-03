@@ -1,0 +1,1295 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-12-15 16:58+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+#: tube-video-curator.php:275
+msgid ".TUBE Video Curator"
+msgstr ""
+
+#. The Page title
+#: tube-video-curator.php:276
+msgid ".TUBE Curator"
+msgstr ""
+
+#: tube-video-curator.php:414
+msgid "Dashboard"
+msgstr ""
+
+#: tube-video-curator.php:882
+msgctxt "Text of source link in image caption"
+msgid "Source"
+msgstr ""
+
+#: tube-video-curator.php:1051
+msgid "Approve"
+msgstr ""
+
+#: tube-video-curator.php:1052
+msgid "Deny"
+msgstr ""
+
+#: tube-video-curator.php:1053
+msgid ""
+"You have changed the query parameters, remember to click on Save Changes to "
+"update the results."
+msgstr ""
+
+#: tube-video-curator.php:1054
+msgid ""
+"There is an error with your API key, it has been rejected by Google API "
+"Service."
+msgstr ""
+
+#: tube-video-curator.php:1055
+msgid "Loading..."
+msgstr ""
+
+#: tube-video-curator.php:1056
+msgid "Video import failed. Please try again."
+msgstr ""
+
+#: tube-video-curator.php:1057
+msgid "Video added successfully."
+msgstr ""
+
+#: tube-video-curator.php:1058
+msgid "Video skipped successfully."
+msgstr ""
+
+#: tube-video-curator.php:1059
+msgid "Video restore failed. Please try again."
+msgstr ""
+
+#: tube-video-curator.php:1060
+msgid "Video restored successfully."
+msgstr ""
+
+#: tube-video-curator.php:1061 classes/class-tube-vc-videos-list.php:144
+msgid "PUBLISHED"
+msgstr ""
+
+#: tube-video-curator.php:1062 classes/class-tube-vc-videos-list.php:139
+msgid "DRAFT"
+msgstr ""
+
+#: tube-video-curator.php:1063 classes/class-tube-vc-videos-list.php:134
+msgid "PENDING"
+msgstr ""
+
+#: tube-video-curator.php:1064 classes/class-tube-vc-videos-list.php:129
+msgid "SKIPPED"
+msgstr ""
+
+#: tube-video-curator.php:1319
+#, php-format
+msgid ""
+"Sorry, you must have a <a href=\"%1$s\">YouTube</a>, <a href=\"%2$s\">"
+"Vimeo</a>, or <a href=\"%3$s\">Twitch</a> API key to use this feature."
+msgstr ""
+
+#: tube-video-curator.php:1334
+#, php-format
+msgid ""
+"Sorry, you must have a <a href=\"%1$s\">YouTube</a> or <a href=\"%2$s\">"
+"Vimeo</a> API key to use this feature."
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:89
+msgid ""
+"Use standard YouTube URL for single videos only. e.g. https://www.youtube."
+"com/watch?v=-C_jPcUkVrM"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:90
+msgid ""
+"Use standard Vimeo URL for single videos only. e.g. https://vimeo."
+"com/26783966"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:91
+msgid ""
+"Use standard Twitch URL for single videos only. e.g. https://www.twitch."
+"tv/bungie/v/79073494"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:104
+#: classes/class-tube-vc-dashboard.php:519
+msgid "Add Video via URL"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:121
+msgid "Find Video"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:156
+#: classes/class-tube-vc-find-videos.php:115
+msgid "Site"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:164
+msgid "Video URL"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:191
+#: classes/class-tube-vc-find-videos.php:154
+msgid "Sorry, there are no sites to search."
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:248
+msgid "Please use a valid video URL."
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:343
+msgid "Media added!"
+msgstr ""
+
+#: classes/class-tube-vc-add-via-url.php:349
+msgid "Selected Video"
+msgstr ""
+
+#: classes/class-tube-vc-api-key-nag.php:73
+msgid "You&rsquo;re almost ready to curate videos&hellip;"
+msgstr ""
+
+#: classes/class-tube-vc-api-key-nag.php:75
+msgid "Set up the .TUBE Video Curator"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:81
+msgid "How to get a YouTube API key:"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:89
+msgid "How to get a Vimeo API key:"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:97
+msgid "How to get a Twitch API key:"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:105
+msgid "Manage channels and playlists:"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:113
+msgid "Find and curate new videos:"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:121
+msgid "Update your settings:"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:129
+msgid "Manage your API Keys:"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:153
+msgid "Welcome to the .TUBE Video Curator"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:228
+msgid "Which site would you like to set up first?"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:232
+#: classes/class-tube-vc-settings-api-keys.php:50
+msgid "YouTube"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:235
+msgid ""
+"This usually takes about 3 or 4 minutes if you already have a Google account."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:240
+#: classes/class-tube-vc-settings-api-keys.php:54
+msgid "Vimeo"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:243
+msgid "This usually takes about 2 minutes if you already have a Vimeo account."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:248
+msgid ""
+"* An API Key is a unique code that&rsquo;s required to get videos and other "
+"information from these sites."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:261
+msgid "If you already have a YouTube API Key, scroll down and enter it now."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:262
+msgid "Otherwise, here&rsquo;s how to get one."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:270
+#: classes/class-tube-vc-settings-api-keys.php:96
+msgid "Save API Key"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:286
+msgid "If you already have a Vimeo API Key, scroll down and enter it now."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:287
+#: classes/class-tube-vc-dashboard.php:312
+msgid "Otherwise, read on to learn how to get one."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:295
+#: classes/class-tube-vc-dashboard.php:320
+#: classes/class-tube-vc-settings-api-keys.php:81
+#: classes/class-tube-vc-settings-api-keys.php:88
+msgid "Save ID &amp; Secret"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:311
+msgid "If you already have a Twitch API Key, scroll down and enter it now."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:344
+#: classes/class-tube-vc-source-manager.php:219
+msgid "Your Channels &amp; Playlists"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:348
+msgid ""
+"Find videos from your Channels &amp; Playlists, change auto-sync settings, "
+"and more."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:358
+msgid "Add Channels &amp; Playlists"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:363
+msgid ""
+"Channels and playlists make it&rsquo;s easy to curate the latest videos from "
+"your favorite sources."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:398
+msgid "Recently added Channels &amp; Playlists"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:451
+msgid "Manage Your Channels &amp; Playlists"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:494
+msgid " Pending Video"
+msgid_plural " Pending Videos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tube-vc-dashboard.php:507
+#, php-format
+msgid "Review %1$s %2$s"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:511
+msgid "Review and approve videos that are set to &#8220Pending Review.&#8221"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:523
+msgid ""
+"Have a specific video you want to turn into a post? This is the tool for you."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:530
+msgid "Search for Videos"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:534
+msgid ""
+"Search for the latest videos for any query you can think of, then curate "
+"just the videos you like."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:541
+msgid "Skipped Videos"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:545
+msgid ""
+"See all the videos you&rsquo;ve passed up, in case you want to &#8220;un-"
+"skip / delete&#8221; them."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:565
+msgid "Change Display Settings"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:569
+msgid "Customize how videos get displayed on your site."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:576
+msgid "Change Import Settings"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:580
+msgid "Set the defaults for how new videos get turned into posts."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:603
+msgid "Manage YouTube API Key"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:607
+msgid "Add a YouTube API Key"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:614
+msgid "With a YouTube API Key you can search for channels, playlists and more."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:624
+msgid "Manage Vimeo API Key"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:628
+msgid "Add a Vimeo API Key"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:635
+msgid "A Vimeo API Key allows you to search for users, channels, and more."
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:645
+msgid "Manage Twitch API Key"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:649
+msgid "Add a Twitch API Key"
+msgstr ""
+
+#: classes/class-tube-vc-dashboard.php:656
+msgid ""
+"Your Twitch API Key allows you to search for channels, videos, and more."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources-twitch-channels.php:96
+#: classes/class-tube-vc-twitch-videos.php:196
+#: classes/class-tube-vc-twitch-videos.php:535
+#: classes/class-tube-vc-twitch-videos.php:596
+msgid "Error retrieving Twitch API client."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources-twitch-channels.php:116
+msgid "Error retrieving Twitch results. "
+msgstr ""
+
+#: classes/class-tube-vc-find-sources-vimeo-channels.php:108
+#: classes/class-tube-vc-find-sources-vimeo-users.php:101
+#: classes/class-tube-vc-vimeo-videos.php:235
+#: classes/class-tube-vc-vimeo-videos.php:344
+#: classes/class-tube-vc-vimeo-videos.php:477
+#: classes/class-tube-vc-vimeo-videos.php:798
+#: classes/class-tube-vc-vimeo-videos.php:867
+msgid "Error retrieving Vimeo API client."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources-vimeo-channels.php:127
+#: classes/class-tube-vc-find-sources-vimeo-users.php:120
+msgid "Error retrieving Vimeo results. "
+msgstr ""
+
+#: classes/class-tube-vc-find-sources-youtube-channels.php:127
+#: classes/class-tube-vc-find-sources-youtube-channels.php:187
+#: classes/class-tube-vc-find-sources-youtube-playlists.php:108
+#: classes/class-tube-vc-youtube-videos.php:185
+#: classes/class-tube-vc-youtube-videos.php:299
+#: classes/class-tube-vc-youtube-videos.php:465
+#: classes/class-tube-vc-youtube-videos.php:583
+msgid "Error retrieving YouTube API client."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:75
+msgid "Source saved successfully."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:76
+msgid "Source could not be saved. Try again"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:77
+msgid "Enter a YouTube Username, Channel Name, or Channel ID"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:78
+msgid "Enter a keyword or Playlist ID to search YouTube playlists"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:79
+msgid "Enter a Vimeo Username"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:80
+msgid "Enter a keyword to search Vimeo channels (i.e. playlists)"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:81
+msgid "SAVED"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:175
+msgid "Search"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:207
+msgid "Query Type"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:215
+#: classes/class-tube-vc-find-videos.php:124
+msgid "Query"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:306
+msgid "There was an error searching. Please try again."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:329
+#: classes/class-tube-vc-find-videos.php:277
+#, php-format
+msgid "Searching <code>%1$s</code> for <code>%2$s</code>"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:343
+#: classes/class-tube-vc-find-videos.php:294
+msgid "Sorry, no results matched your search."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:360
+#: classes/class-tube-vc-source-manager.php:906
+msgid "Prev"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:373
+#: classes/class-tube-vc-source-manager.php:917
+msgid "Next"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:403
+#: classes/class-tube-vc-source-manager.php:821
+msgid "10"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:404
+#: classes/class-tube-vc-source-manager.php:822
+msgid "20"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:405
+#: classes/class-tube-vc-source-manager.php:823
+msgid "30"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:406
+#: classes/class-tube-vc-source-manager.php:824
+msgid "40"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:407
+#: classes/class-tube-vc-source-manager.php:825
+msgid "50"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:411
+msgid " source"
+msgid_plural " sources"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tube-vc-find-sources.php:447
+msgid "Processing..."
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:486
+msgid " subscriber"
+msgid_plural " subscribers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tube-vc-find-sources.php:527
+msgid "Find Videos"
+msgstr ""
+
+#: classes/class-tube-vc-find-sources.php:537
+msgid "Autosync&nbsp;new&nbsp;vids"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:58
+msgid "Twitch"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:132
+msgid "API Key"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:157
+#: classes/class-tube-vc-settings-api-keys.php:465
+#: classes/class-tube-vc-settings-api-keys.php:693
+msgid "How to get an API Key"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:200
+msgid "Get a Google Account"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:208
+msgid "Already have a Google Account? Go on to step 2."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:211
+msgid "Don&rsquo;t have a Google Account?"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:212
+msgid "Create a new Google account"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:222
+msgid "Create a Project in the Google Developers Console"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:228
+msgid "Click here to create your project"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:232
+msgid ""
+"You&rsquo;ll need to log in to your Google account if you&rsquo;re not "
+"already logged in."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:235
+msgid "Give your project a name, and optionally a custom ID."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:238
+msgid "Choose your email opt-in settings, then review the terms."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:241
+msgid "Click the &#8220;Create&#8221; button."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:252
+msgid "Enable the YouTube API for Your Project"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:259
+msgid "First, click the &#8220;Enable&#8221; button."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:263
+msgid "Next, click the &#8220;Go to Credentials&#8221; button."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:274
+msgid "Add Credentials / Get Your API Key"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:281
+msgid ""
+"First, make sure &#8220;YouTube Data API v3&#8221; is selected in the &#8220;"
+"Which API are you using?&#8221; dropdown."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:285
+msgid ""
+"Next, choose &#8220;Web Server&#8221; in the &#8220;Where will you be "
+"calling the API from?&#8221; dropdown."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:289
+msgid ""
+"Now, choose &#8220;Public data&#8221; for the &#8220;What data will you be "
+"accessing?&#8221; question."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:293
+msgid "Click the &#8220;What credentials do I need&#8221; button."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:297
+msgid ""
+"Optionally, give your API key a name and add any specific IP addresses to "
+"allow."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:301
+msgid "Finally, click the &#8220;Create API key&#8221; button."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:314
+msgid "Save Your Key Here"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:321
+msgid "Copy your new API Key from Google."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:325
+msgid "Come back to this page and paste the API key into the form field here."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:329
+msgid "Finally, click &#8220;Save API Key&#8221; button."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:388
+#: classes/class-tube-vc-settings-api-keys.php:640
+msgid "Client ID"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:396
+#: classes/class-tube-vc-settings-api-keys.php:648
+msgid "Client Secret"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:409
+msgid "Access Token"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:510
+msgid "Get a Vimeo Account"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:515
+msgid "Already have a Vimeo Account? Go on to step 2."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:518
+msgid "Don&rsquo;t have a Vimeo Account?"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:519
+msgid "Create a new Vimeo account"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:529
+msgid "Create an Application in the Vimeo Developers Area"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:534
+msgid "Click here to create your application"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:537
+msgid ""
+"You&rsquo;ll need to log in to your Vimeo account if you&rsquo;re not "
+"already logged in."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:540
+msgid ""
+"Give your application a name and description, enter your website URL, and "
+"optionally a logo. You do NOT need to enter an App Callback URL."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:543
+msgid "Review the terms."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:546
+msgid "Click the &#8220;Create app&#8221; button."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:558
+#: classes/class-tube-vc-settings-api-keys.php:775
+msgid "Get Your API Key"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:564
+msgid ""
+"From the Details page for your App, click the &#8220;Authentication&#8221; "
+"tab."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:568
+#: classes/class-tube-vc-settings-api-keys.php:785
+msgid "There you will see your Client Identifier and Client Secret."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:581
+#: classes/class-tube-vc-settings-api-keys.php:798
+msgid "Save Your Keys Here"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:587
+msgid "Copy your new Client Identifier and Client Secret from Vimeo."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:591
+#: classes/class-tube-vc-settings-api-keys.php:808
+msgid ""
+"Come back to this page and paste the values into the corresponding form "
+"fields here."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:595
+#: classes/class-tube-vc-settings-api-keys.php:812
+msgid "Finally, click the &#8220;Save ID &amp; Secret&#8221; button"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:737
+msgid "Request API Access"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:742
+msgid "Visit the Twitch Developer Success page"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:745
+msgid "Complete the form to request a Twitch API Key."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:755
+msgid "Follow the Email Instructions"
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:760
+msgid "You will receive an email when your application is approved."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:763
+msgid ""
+"Follow the directions in the email to create a Twitch Developer Application."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:781
+msgid "Go to the Details page for your App within your Twitch account."
+msgstr ""
+
+#: classes/class-tube-vc-settings-api-keys.php:804
+msgid "Copy your new Client Identifier and Client Secret from Twitch."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:97
+msgid "Display"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:101
+msgid "Import"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:128
+msgid "Save Import Settings"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:135
+msgid "Save Display Settings"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:166
+msgid "Choose how videos get imported into your site."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:174
+msgid "Default Post Type"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:183
+msgid "Default Author"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:192
+msgid "Default Term"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:201
+msgid "Tag Import Taxonomy"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:210
+msgid "Auto-import Status"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:237
+msgid "Sorry, there are no public post types that support post thumbnails."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:241
+msgid "The default post type for new posts will be "
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:329
+msgid "Sorry, there are no authors to import into."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:333
+msgid "The default author for new posts will be "
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:420
+msgid "Sorry, there are no terms to import into."
+msgstr ""
+
+#. help text for default term selector
+#: classes/class-tube-vc-settings.php:425
+msgid "The default term added to new posts will be "
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:431
+msgid "from the taxonomy "
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:451
+msgid "None"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:517
+msgid "Sorry, there are no taxonomies to import into."
+msgstr ""
+
+#. help text for default term selector
+#: classes/class-tube-vc-settings.php:525
+msgid "If the video has tags, the tags will be imported into the taxonomy "
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:532
+msgid "None (Do NOT import tags)"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:570
+msgid ""
+"Sorry, there are no statuses to choose from. WordPress will use &#8220;"
+"draft&#8221; by default."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:574
+msgid "The default status for &#8220;auto-imported&#8221; posts will be "
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:634
+msgid "Choose how videos get displayed on your site."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:642
+msgid "Video Placement"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:651
+msgid "Player Options"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:705
+msgid ""
+"If you choose none, you can use the shortcode <code>[tube_video]</code> to "
+"include the video in your \n"
+"  \n"
+"  posts."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:712
+msgid ""
+"Please see the documentation for more advanced examples and template hooks."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:724
+msgid "<strong>Above:</strong> Insert video above the post content"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:725
+msgid "<strong>Below:</strong> Insert video below the post content"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:726
+msgid "<strong>None:</strong> Do not auto-insert videos into posts"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:773
+msgid "Please note that some options may not apply to all video sources."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:778
+#, php-format
+msgid ""
+"Here is a complete list of supported parameters for <a href=\"%1$s\" "
+"target=\"_blank\">YouTube</a> and <a href=\"%2$s\" target=\"_blank\">"
+"Vimeo</a>."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:790
+msgid ""
+"If you are familiar with PHP, you can add or modify parameters using the "
+"<code>tube_vc_filter_oembed_args</code> filter in your theme&rsquo;s "
+"functions.php file."
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:793
+msgid "Here&rsquo;s an example:"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:804
+msgid "Additional source-specific filters are available as well:"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:818
+msgid ""
+"<strong>Autoplay:</strong> Videos start automatically when the player loads"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:819
+msgid ""
+"<strong>Show Info:</strong> Display the video title &amp; other info in the "
+"player"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:820
+msgid "<strong>Related:</strong> Show related videos when the video ends"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:821
+msgid ""
+"<strong>Auto-hide:</strong> Video controls will &#8220;hide&#8221; after a "
+"video begins"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:822
+msgid ""
+"<strong>Controls:</strong> Show controls (play, pause, timeline, etc) in the "
+"player"
+msgstr ""
+
+#: classes/class-tube-vc-settings.php:823
+msgid ""
+"<strong>Fullscreen:</strong> Allow the user to play the video fullscreen"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:210
+msgctxt "post type general name"
+msgid "Channels &amp; Playlists"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:211
+msgctxt "post type singular name"
+msgid "Channel / Playlist"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:212
+msgctxt "admin menu"
+msgid "Channels &amp; Playlists"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:213
+msgctxt "add new on admin bar"
+msgid "Channel / Playlist"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:214
+msgctxt "source"
+msgid "Add New"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:215
+msgid "Add New Channel / Playlist"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:216
+msgid "New Channel / Playlist"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:217
+#: classes/class-tube-vc-source-manager.php:218
+msgid "View Channel / Playlist"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:220
+msgid "Search Channels &amp; Playlists"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:221
+msgid "Parent Channels &amp; Playlists:"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:222
+msgid "No channels / playlists found."
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:223
+msgid "No channels / playlists found in Trash."
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:228
+msgid "Description."
+msgstr ""
+
+#. slug
+#: classes/class-tube-vc-source-manager.php:296
+msgid "Source Settings"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:314
+msgid "Save Source"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:317
+msgid "Save Settings"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:367
+msgid "Type:"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:370
+msgid "Original:"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:391
+msgid "Move to Trash"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:435
+#, php-format
+msgid "Boo, post type &#8220;%1$s&#8221; doesn&rsquo;t really exist"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:459
+msgid "Auto-sync is ON"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:464
+#, php-format
+msgid ""
+"A new <a href=\"%1$s\">%2$s</a> will automatically be created when this "
+"channel adds a new video."
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:472
+msgid "Turn OFF Auto-sync"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:482
+msgid "Auto-sync is OFF"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:487
+#, php-format
+msgid ""
+"If you turn on auto-sync, a new <a href=\"%1$s\">%2$s</a> will automatically "
+"be created when this channel adds a new video."
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:495
+msgid "Turn ON Auto-sync"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:509
+msgid "Change post type for new imports"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:742
+msgid "Sorry, no results found."
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:846
+msgid "video"
+msgid_plural "videos"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/class-tube-vc-source-manager.php:876
+msgid "Media added !"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:882
+msgid "Quick-links for new videos on this page: "
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:884
+msgid "Publish All"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:887
+msgid "Skip All"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:1025
+msgid "No"
+msgstr ""
+
+#: classes/class-tube-vc-source-manager.php:1027
+msgid "Yes"
+msgstr ""
+
+#: classes/class-tube-vc-twitch-videos.php:215
+msgid "Error retrieving Twitch results."
+msgstr ""
+
+#: classes/class-tube-vc-twitch-videos.php:495
+msgid "Please use a URL from twitch.tv"
+msgstr ""
+
+#: classes/class-tube-vc-twitch-videos.php:508
+msgid ""
+"No video ID found. Please use a URL like this https://www.twitch."
+"tv/bungie/v/79073494"
+msgstr ""
+
+#: classes/class-tube-vc-twitch-videos.php:521
+#: classes/class-tube-vc-vimeo-videos.php:771
+#: classes/class-tube-vc-youtube-videos.php:777
+msgid "Sorry, this video could not be found. Please try another."
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:42
+msgid ".TUBE Video"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:185
+msgid "Restore"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:193
+msgid "View"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:199
+msgid "Edit"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:208
+msgid "Review/Edit"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:214
+msgid "Preview"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:222
+msgid "Publish"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:226
+msgid "Pending"
+msgstr ""
+
+#: classes/class-tube-vc-videos-list.php:230
+msgid "Skip"
+msgstr ""
+
+#: classes/class-tube-vc-vimeo-videos.php:246
+#: classes/class-tube-vc-vimeo-videos.php:354
+#: classes/class-tube-vc-vimeo-videos.php:489
+#: classes/class-tube-vc-vimeo-videos.php:809
+msgid "Error retrieving Vimeo results."
+msgstr ""
+
+#: classes/class-tube-vc-vimeo-videos.php:745
+msgid "Please use a URL from vimeo.com"
+msgstr ""
+
+#: classes/class-tube-vc-vimeo-videos.php:758
+msgid ""
+"No video ID found. Please use a URL like this https://vimeo.com/26783966"
+msgstr ""
+
+#: classes/class-tube-vc-youtube-videos.php:743
+msgid "Please use a URL from www.youtube.com"
+msgstr ""
+
+#: classes/class-tube-vc-youtube-videos.php:754
+msgid "Please use a URL like this https://www.youtube.com/watch?v=JhvrQeY3doI"
+msgstr ""
+
+#: classes/class-tube-vc-youtube-videos.php:765
+msgid ""
+"No video ID found. Please use a URL like this https://www.youtube.com/watch?"
+"v=JhvrQeY3doI"
+msgstr ""
+
+#: classes/class-tube-vc-youtube-videos.php:788
+msgid "Sorry, this video is not embeddable. Please try another."
+msgstr ""
+
+#: classes/FUTURE-class-tube-add-via-imgur.php:81
+msgid "Sorry, you must have an Imgur API key to use this feature."
+msgstr ""
+
+#: classes/FUTURE-class-tube-add-via-imgur.php:84
+#, php-format
+msgid "Please <a href=\"%1$s\">add an API key</a> to continue."
+msgstr ""
+
+#: classes/FUTURE-class-tube-add-via-imgur.php:99
+msgid "New post created!"
+msgstr ""
+
+#: classes/FUTURE-class-tube-add-via-imgur.php:102
+msgid "View Post"
+msgstr ""
+
+#: classes/FUTURE-class-tube-add-via-imgur.php:106
+msgid "Edit Post"
+msgstr ""
+
+#: classes/FUTURE-class-tube-add-via-imgur.php:153
+msgid "Imgur URL"
+msgstr ""
+
+#: classes/FUTURE-class-tube-imgur-tools.php:167
+msgid "Title not available."
+msgstr ""
+
+#: classes/FUTURE-class-tube-imgur-tools.php:180
+msgid "Description not available."
+msgstr ""
+
+#: classes/FUTURE-class-tube-imgur-tools.php:203
+msgid "Anonymous"
+msgstr ""
+
+#: classes/NOTUSED-class-tube-go-live.php:140
+msgid "Go Live: Showcase Your Live Stream"
+msgstr ""
+
+#: classes/NOTUSED-class-tube-go-live.php:228
+msgid "Go Live URL"
+msgstr ""
+
+#: classes/NOTUSED-class-tube-go-live.php:242
+msgid ""
+"Streaming live? Enter your channel URL below and click &#8220;Go Live.&#8221;"
+msgstr ""
+
+#: classes/NOTUSED-class-tube-go-live.php:293
+msgid "Please enter a valid URL."
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"The .TUBE Video Curator Plugin for WordPress makes it easy to create posts "
+"from YouTube, Vimeo, and Twitch channels, and works seamlessly with most "
+"themes and custom post types."
+msgstr ""
+
+#. URI of the plugin
+msgid "https://www.get.tube/wordpress/tube-video-curator-plugin"
+msgstr ""
+
+#. Author of the plugin
+msgid ".TUBE gTLD"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.get.tube"
+msgstr ""

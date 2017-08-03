@@ -1,0 +1,490 @@
+/*
+  CSS Styles for .TUBE Channel Manager WP plugin
+ */
+
+
+  
+@media screen and (min-width: 783px) {    
+        
+  .tube-vc-settings-content-col {
+    float:left;
+    width: calc(100% - 325px);
+    margin-right:20px;  
+  }
+        
+  .tube-vc-settings-sidebar-col {
+    float:left;
+    width:300px;  
+  }
+
+
+          
+}
+
+
+
+.tube-admin-list-videos {
+    background: #fff;
+    border-radius: 4px;
+}
+
+/*
+.updated {
+    display: none;
+}
+*/
+
+.tube-admin-list-videos .result  {
+  border-bottom: 1px solid #ddd;;
+  padding-bottom:15px;
+  margin-bottom:15px;
+}
+
+.tube-admin-list-videos .result .tube-video-thumbnail {
+  width:125px;  
+  padding-right:15px;
+  float:left;
+  min-height: 1px;
+}
+
+.tube-admin-list-videos .result .tube-video-thumbnail img {
+   width: 100%;
+   height: auto;
+}
+
+.tube-admin-list-videos .result .tube-video-summary {
+  width:calc(100% - 305px);
+  padding-right:15px;
+  float:left;
+  
+}
+.tube-admin-list-videos .result .tube-video-buttons {
+  width:150px;    
+  float:left;
+}
+
+.tube-admin-list-videos .result .tube-video-buttons a {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 782px) {    
+        
+  .tube-admin-list-videos .result .tube-video-summary {
+    width:calc(100% - 140px);
+    padding-right:0;
+    float:left;
+    
+  }
+  .tube-admin-list-videos .result .tube-video-buttons {
+    width:calc(100% - 140px); 
+    float:right;
+    margin-top:15px;
+  }
+          
+}
+
+.tube-admin-list-videos .result.loading .tube-video-summary {
+position: relative;
+}
+
+
+.tube-admin-list-videos .result.loading > div > * {
+opacity:.33334;
+}
+
+
+.tube-admin-list-videos .result.loading .tube-video-summary:before {
+  background: url('../images/tube-loader.gif') no-repeat center center;
+  background-size: 32px;
+  content: " ";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.tube-admin-list-videos .result:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+
+.tube-admin-list-videos .result .buttons .button {
+    margin: 10px;
+}
+.options-custom {
+  background: #E5E5E5;
+  border-radius: 4px;
+
+  padding: 20px;
+}
+
+a[disabled="disabled"]{
+      cursor: default;
+    }
+
+.options-custom .option{
+  margin: 10px;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+.options-custom .option.hidden {
+  display: none;
+}
+.options-custom .option label {
+  font-weight: bold;
+  display: inline-block;
+  width: 200px;
+}
+
+.align-center {
+  text-align: center !important;
+}
+.align-center p {
+  text-align: center;
+}
+.hidden {
+  display: none;
+}
+
+
+
+.settings-help-toggle .dashicons {
+  color:#666;
+}
+
+
+      form.section-divider .form-table:not(:last-of-type) {
+        border-bottom:1px solid #ddd; 
+        margin-bottom:1.5em;
+      }      
+
+
+
+
+
+
+
+
+   .tube-admin-list-videos {
+        width:100%;
+      }
+      
+
+
+      
+      .tube-admin-list-videos .video-status-skipped img,
+      .tube-admin-list-videos .video-status-skipped .tube-video-summary
+       {
+        opacity:.5;
+      }
+      
+      
+      .tube-admin-list-videos .tube-video-buttons {
+        display:none;
+      }
+      
+      .tube-admin-list-videos .tube-source-new-buttons,
+      .tube-admin-list-videos .video-status-new .tube-video-new-buttons {
+        display:block;
+      }
+      
+      
+      .tube-admin-list-videos .video-status-skipped .tube-video-skipped-buttons {
+        display:block;
+      }
+      
+      .tube-admin-list-videos .video-status-pending .tube-video-pending-buttons {
+        display:block;
+      }
+      
+      
+      .tube-admin-list-videos .video-status-publish .tube-video-published-buttons,
+      .tube-admin-list-videos .video-status-draft .tube-video-published-buttons {
+        display:block;
+      }
+      
+      
+      .tube-video-buttons {
+        text-align:center;
+      }
+      
+     .tube-video-buttons a.btn-skip,
+     .tube-video-buttons a.btn-edit,
+     .tube-video-buttons a.btn-pending {
+          margin-top: 5px;
+          display: inline-block;
+      }
+
+
+      .tube-admin-list-videos .video-title {
+        margin-top:0;
+      }
+      .tube-admin-list-videos .video-meta {
+            margin-top: -10px;
+      }
+      .tube-admin-list-videos .video-description {    
+        margin-top: 0;
+            margin-bottom: 0; 
+             /* These are technically the same, but use both */
+            overflow-wrap: break-word;
+            word-wrap: break-word;
+          
+            -ms-word-break: break-all;
+            /* This is the dangerous one in WebKit, as it breaks things wherever */
+            word-break: break-all;
+            /* Instead use this non-standard one: */
+            word-break: break-word;
+          
+            /* Adds a hyphen where the word breaks, if supported (No Blink) */
+            -ms-hyphens: auto;
+            -moz-hyphens: auto;
+            -webkit-hyphens: auto;
+            hyphens: auto;
+      }
+      
+      .tube-admin-list-videos-heading {
+        overflow:hidden;
+        margin-bottom:.5em;
+      }
+      .tube-admin-list-videos-heading > * {
+        margin:5px 0;
+      }
+      
+      
+      .max-results-links  {
+        list-style-type:none;
+      }
+      
+      .max-results-links li {
+        display:inline;
+        margin: 0 0 0 5px;
+      }
+      
+      .max-results-links > *:not(:first-child):before {
+        content: '\2022';
+        margin: 0 5px 0 0;
+      }
+
+
+
+.wp-list-table th#tube_source_thumb {width:80px;}
+
+
+.autosync-settings-wrap {
+   border-left: 4px solid #00a0d2;
+   padding:10px;  
+   background-color: #f7fcfe;
+   margin-bottom:10px;
+}
+
+.autosync-settings-wrap .description {
+  margin:15px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+       .button.button-tube, .button.btn-tube {
+         background: #a2006a;
+          border-color: #a2006a #91005f #91005f;;
+          text-shadow: 0 -1px 1px #91005f,1px 0 1px #91005f,0 1px 1px #91005f,-1px 0 1px #91005f;
+            box-shadow: 0 1px 0 #91005f;
+            font-weight:700;
+       }
+       
+       
+       
+
+
+      .api-key-nag {
+        overflow:hidden;
+        background-color: rgba(162, 0, 106, .06125);
+        border-color: #a2006a;
+      }
+      .api-key-nag .notice-dismiss {
+        position: absolute;
+        top: 5px;
+        right: 0;
+        padding: 10px 15px 10px 21px;
+        font-size: 13px;
+        line-height: 1.23076923;
+        text-decoration: none;
+        color: #a2006a;
+      }
+      .api-key-nag .notice-dismiss:before {
+         position: absolute;
+        top: 8px;
+        left: 0;
+        -webkit-transition: all .1s ease-in-out;
+        transition: all .1s ease-in-out;
+      }
+       
+       .api-key-nag p {
+         margin:5px 15px 0 0;
+         float:left;
+       }
+       
+       .api-key-nag .button {
+         margin:0 85px 0 0;
+         float:left;
+       }
+       
+       .api-key-nag .button:hover,
+       .api-key-nag .button:active {
+          background: #be027d;
+          border-color: #ad0272;
+       }
+       
+       .api-key-nag .button:active {
+           -webkit-box-shadow: inset 0 2px 0 #91005f;
+          box-shadow: inset 0 2px 0 #91005f;
+       }
+       
+       @media screen and (max-width: 600px) {
+        .api-key-nag .notice-dismiss {
+            overflow: hidden;
+            text-indent: 40px;
+            white-space: nowrap;
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            top: 5px;
+            right: 5px;
+        }
+        .api-key-nag .notice-dismiss:before {
+            font-size: 20px;
+            top: 5px;
+            left: -35px;
+        }
+         .api-key-nag p {
+         margin:0 20px 5px 0;
+         }
+       
+           .api-key-nag .button {
+               margin-right:20px;
+           }
+        }
+    
+/* API Help Counter (for Ordered Lists) */
+
+.api-help-counter {
+  margin-left: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.api-help-counter > li {
+  counter-increment: step-counter;
+  overflow:hidden;
+}
+
+.api-help-counter > li::before {
+  content: counter(step-counter);
+  margin-right: 5px;
+  font-size: 80%;
+  background-color: rgb(200,200,200);
+  color: white;
+  font-weight: bold;
+  padding: 3px 8px;
+  border-radius: 3px;
+  float:left;
+}
+
+.api-help-counter .help-step {
+  margin: 0 0 .5em .5em;
+  float:left;
+  width: calc(100% - 40px);
+}
+
+.api-help-counter  p {
+  margin: 0 0 .5em 0;
+}
+
+
+
+#tube-vc-recent-channels-module {
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  padding:1em;
+  margin-bottom:2em;
+}
+
+#tube-vc-recent-channels-module > *:first-child {
+  margin-top:0;
+}
+#tube-vc-recent-channels-module > *:last-child {
+  margin-bottom:0;
+}
+
+
+
+.tube-video-quicklinks {
+   padding:10px;  
+    background: rgba(0,0,0,.05);
+    text-align:center; 
+    margin:.5em auto 1em;
+}
+
+.tube-video-quicklinks p {
+  margin:0; 
+    text-align:center; 
+    opacity:.66667;
+}
+.tube-video-quicklinks:hover p {
+    opacity:1;
+}
+
+
+
+      .source-settings-metabox h4 {
+        margin: .5em 0;
+      }
+      
+      .source-settings-metabox td {
+        padding:0 0 12px 0;
+      }
+
+      .source-settings-metabox #major-publishing-actions {
+        margin: 0 -12px -12px;
+      }
+      
+      p.feed-type-hint {
+        margin-left:2em !important;
+        opacity:.6;
+        font-size:12px !important;
+        font-style:normal;
+          /* These are technically the same, but use both */
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+      
+        -ms-word-break: break-all;
+        /* This is the dangerous one in WebKit, as it breaks things wherever */
+        word-break: break-all;
+        /* Instead use this non-standard one: */
+        word-break: break-word;
+      
+        /* Adds a hyphen where the word breaks, if supported (No Blink) */
+        -ms-hyphens: auto;
+        -moz-hyphens: auto;
+        -webkit-hyphens: auto;
+        hyphens: auto;
+  
+      }
+ 
+.tube-vc-menu-separator {   
+display:block;margin:1px 0 1px -5px;padding:0;height:1px;line-height:1px;background:#23282d;
+}
